@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .bounce-top {
   display: block;
   animation: bounce-top 2s infinite both;
@@ -111,7 +112,7 @@ header.hero-img {
   height: 100vh;
   background-image: url("../img/hero-small.jpeg");
   background-size: cover;
-  background-position: center top;
+  background-position: center bottom;
   background-attachment: fixed;
   color: #fff;
   z-index: 0;
@@ -126,11 +127,29 @@ header.hero-img .hero-shadow {
   z-index: -5;
 }
 header.hero-img .hero-text {
+  font-family: "Lora", serif; /* Czcionka dla akaitu */
+  font-size: 18px;
+  line-height: 1.6;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100%;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6); /* Subtelny ciń */
+}
+header.hero-img .btn-outline-light {
+  font-family: "Poppins", sans-serif; /* Dopasowanie czcinki do nagłówka */
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+header.hero-img .btn-outline-light:hover {
+  background-color: #fff;
+  color: #ff4500; /* Specjalny kolor po najechaniu */
 }
 header.hero-img .fa-chevron-down {
   position: absolute;
@@ -256,7 +275,7 @@ header.hero-img .fa-chevron-down {
 .contact .section-title {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: #fff;
 }
 .contact .underline {
   margin: 0 auto 40px;
@@ -362,6 +381,10 @@ header.hero-img .fa-chevron-down {
 }
 
 @media (max-width: 768px) {
+  header.hero-img {
+    background-position: right top;
+    height: 50vh;
+  }
   .panel-container {
     flex-direction: column;
     height: auto;
@@ -374,24 +397,15 @@ header.hero-img .fa-chevron-down {
     flex: 3;
   }
 }
-@media (min-width: 768px) {
-  .hero-text h1 {
-    font-size: 42px;
-  }
-  .hero-text p {
-    font-size: 20px;
-  }
-}
-@media (min-width: 992px) {
-  html {
-    scroll-padding-top: 72px;
-  }
-  .aboutus-hero {
-    background-image: url("../img/about-hero-big.jpeg");
+@media (min-width: 768px) and (max-width: 991px) {
+  header.hero-img {
+    background-position: right center;
+    height: 70vh;
   }
 }
 @media (min-width: 1200px) {
   header.hero-img {
-    background-image: url("../img/hero-big.jpeg");
+    background-position: center 20%;
+    height: 100vh;
   }
 }/*# sourceMappingURL=main.css.map */
