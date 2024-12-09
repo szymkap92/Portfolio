@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SzymonK</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navId">
+    <nav
+      class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3"
+      id="navId"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i class="fa-solid fa-briefcase"></i> My<span class="orange-text">
+            Portfolio</span
+          ></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" href="#home">Home</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero-img" id="home">
+      <div class="hero-text text-center p-2">
+        <h1 data-aos="fade-up" data-aos-delay="200">
+          Hello I<span class="orange-text">'</span>m<span class="orange-text"> Szymon</span></span>Kaput
+        </h1>
+        <p data-aos="fade-up" data-aos-delay="00">
+          "Teamwork and openness drive success and create a positive
+          environment."
+        </p>
+        <a
+        
+          data-aos="fade-up"
+          data-aos-delay="600"
+          href="#aboutus"
+          class="btn btn-outline-light mt-2 text-uppercase"
+          >Learn more</a
+        >
+      </div>
+      <div class="hero-shadow"></div>
+
+      <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
+    </header>
+
+    <main>
+      <section id="skills" class="aboutus bg-light py-5">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="underline"></div>
+          <p>
+  Driven by a passion for <span class="highlight">programming and continuous improvement</span>, I develop my skills in areas such as C#, .NET, and business application development. I am particularly interested in combining backend and frontend technologies, enabling a comprehensive approach to projects. Additionally, I explore topics related to <span class="highlight">cybersecurity and system administration</span>, providing me with a broad perspective on technology and its practical applications. This combination of practical knowledge and a curiosity to learn new tools empowers me to create robust and innovative solutions tailored to modern needs.
+</p>
+
+
+<div class="row">
+  <!-- C# -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="100"
+  >
+    <p><i class="fas fa-laptop-code"></i></p>
+    <p class="aboutus-card-title mb-1">C#</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- .NET -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="200"
+  >
+    <p><i class="fas fa-code"></i></p>
+    <p class="aboutus-card-title mb-1">.NET</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- SQL Server -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="300"
+  >
+    <p><i class="fas fa-database"></i></p>
+    <p class="aboutus-card-title mb-1">SQL Server</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- Networking -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="400"
+  >
+    <p><i class="fas fa-network-wired"></i></p>
+    <p class="aboutus-card-title mb-1">Networking</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- Windows Server -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="500"
+  >
+    <p><i class="fab fa-windows"></i></p>
+    <p class="aboutus-card-title mb-1">Windows Server</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- PowerShell -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="600"
+  >
+    <p><i class="fas fa-terminal"></i></p>
+    <p class="aboutus-card-title mb-1">PowerShell</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- Azure -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="700"
+  >
+    <p><i class="fab fa-microsoft"></i></p>
+    <p class="aboutus-card-title mb-1">Azure</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- REST API -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="800"
+  >
+    <p><i class="fas fa-link"></i></p>
+    <p class="aboutus-card-title mb-1">REST API</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- Git -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="900"
+  >
+    <p><i class="fab fa-git-alt"></i></p>
+    <p class="aboutus-card-title mb-1">Git</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- JIRA -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="1000"
+  >
+    <p><i class="fas fa-tasks"></i></p>
+    <p class="aboutus-card-title mb-1">JIRA</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- Linux -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="1100"
+  >
+    <p><i class="fab fa-linux"></i></p>
+    <p class="aboutus-card-title mb-1">Linux</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- Virtualization -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="1200"
+  >
+    <p><i class="fas fa-server"></i></p>
+    <p class="aboutus-card-title mb-1">Virtualization</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- HTML -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="1300"
+  >
+    <p><i class="fab fa-html5"></i></p>
+    <p class="aboutus-card-title mb-1">HTML</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- CSS -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="1400"
+  >
+    <p><i class="fab fa-css3-alt"></i></p>
+    <p class="aboutus-card-title mb-1">CSS</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+  <!-- JavaScript -->
+  <div
+    class="col-sm-6 col-lg-3 text-center aboutus-hover"
+    data-aos="zoom-in"
+    data-aos-delay="1500"
+  >
+    <p><i class="fab fa-js"></i></p>
+    <p class="aboutus-card-title mb-1">JavaScript</p>
+    <p class="aboutus-card-text"></p>
+  </div>
+
+   <!-- Virtualization -->
+   <div
+   class="col-sm-6 col-lg-3 text-center aboutus-hover"
+   data-aos="zoom-in"
+   data-aos-delay="1200"
+ >
+   <p><i class="fa-brands fa-react"></i></p>
+   <p class="aboutus-card-title mb-1">React</p>
+   <p class="aboutus-card-text"></p>
+ </div>
+</div>
+</div>
+ </section>
+ <section id="Portfolio" class="aboutus bg-light py-5">
+  <div class="container">
+    <h2 class="section-title">Portfolio</h2>
+    <div class="underline"></div>
+    <div class="panel-container">
+      <div
+        class="panel active"
+        style="
+          background-image: url('./img/word.jpg');
+        "
+      >
+        <h3>Explore The World</h3>
+      </div>
+      <div
+        class="panel"
+        style="
+          background-image: url('./img/forest.jpg');
+        "
+      >
+        <h3>Wild Forest</h3>
+      </div>
+      <div
+        class="panel"
+        style="
+          background-image: url('./img/sunny.jpg');
+        "
+      >
+        <h3>Sunny Beach</h3>
+      </div>
+      <div
+        class="panel"
+        style="
+          background-image: url('./img/winter.jpg');
+        "
+      >
+        <h3>City on Winter</h3>
+      </div>
+      <div
+        class="panel"
+        style="
+          background-image: url('./img/mountain.jpg');
+        "
+      >
+        <h3>Mountains - Clouds</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    
+      <section class="about-section py-5">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="underline"></div>
+      
+          <div class="row">
+            <div class="col-lg-6 about-text">
+              <p>
+                I graduated from a technical school with a specialization in Mechatronics. However, over time, I realized that I was more drawn to computers than machines. In today's world, these fields are closely connected. From a young age, I had access to computers at home, becoming familiar with both Windows and Linux environments. Inspired by this, I decided to invest in a Frontend Development course, which I found incredibly enjoyable. Encouraged by my brother-in-law, a professional .NET developer with years of experience, I decided to focus on learning C# to eventually combine these technologies.
+              </p>
+              <p>
+                Later, I enrolled in a computer science degree program with a specialization in Business Application Programming and Cybersecurity. Why cybersecurity? Because I find this field incredibly fascinating, and I feel comfortable working in areas like network administration and computer systems management. I had the opportunity to gain practical experience during an internship at Olimp Labs, where I learned about network administration and IT systems management.
+              </p>
+              <p>
+                I am eager to grow in environments that challenge my curiosity and problem-solving skills. For me, computer science is like solving complex puzzles – a process that brings immense satisfaction.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-actions">
+                <h3>Email</h3>
+                <ul class="contact-list">
+                  <li>
+                    <a href="mailto:szymonkaput123@gmail.com" class="btn btn-custom">
+                      <i class="fas fa-envelope"></i> szymonkaput123@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <h3>English CV</h3>
+                    <a href="#" class="btn btn-custom mt-2">
+                      <i class="fas fa-file-alt"></i> Download my CV in English
+                    </a>
+                  </li>
+                  <li>
+                    <h3>Polish CV</h3>
+                    <a href="#" class="btn btn-custom mt-2">
+                      <i class="fas fa-file-alt"></i> Download my CV in Polish
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="about-text mt-4">
+            <p class="highlight">
+              I bring positive energy to my work, which strengthens collaboration and motivates those around me. My goal is to work in an environment that allows me to continuously develop, contribute value to the team, and build strong, lasting relationships.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="contact" class="contact py-5">
+        <div class="container">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="underline"></div>
+      
+          <div class="row">
+            <!-- Social Media Section -->
+            <div class="col-lg-6 contact-item">
+              <h3>Follow Me</h3>
+              <p>Stay connected through my social media profiles:</p>
+              <div class="social-media">
+                <a href="https://www.linkedin.com/in/szymon-kaput/" class="social-link">
+                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.facebook.com/Szymus007" class="social-link">
+                  <i class="fa-brands fa-facebook"></i> Facebook
+                </a>
+                <a href="https://github.com/szymkap92" class="social-link">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://itcodziennie.blogspot.com/" class="social-link">
+                  <i class="fa-solid fa-blog"></i> Blog
+                </a>
+                <a href="https://discord.gg/vun8GxBA" class="social-link">
+                  <i class="fa-brands fa-discord"></i> Discord
+                </a>
+              </div>
+              
+            </div>
+      
+            <!-- Email Contact Section -->
+            <div class="col-lg-6 contact-item">
+              <h3>Get in Touch</h3>
+              <p>If you'd like to reach out directly, feel free to email me:</p>
+              <a href="mailto:szymonkaput123@gmail.com" class="btn btn-custom">
+                <i class="fas fa-envelope"></i> szymonkaput123@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-shadow"></div>
+      </section>
+      
+    </main>
+
+    <footer class="bg-dark text-light py-4 text-center">
+      <p class="mb-0">&copy; 2024 | ProGamers | Dev Szymon K</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        startEvent: "DOMContentLoaded",
+        offset: 200,
+        once: true,
+      });
+    </script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
